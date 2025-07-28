@@ -8,4 +8,5 @@ int main(void){
     res2=a*b*c;
     printf("%d+%d+%d=%d\n", a,b,c,res1);
     printf("%d*%d*%d=%d", a,b,c,res2);
+    return 0;
 }

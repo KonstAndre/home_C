@@ -8,4 +8,5 @@ int main(void){
         digit/=10;
     }
     printf("%d", res);
+    return 0;
 }
