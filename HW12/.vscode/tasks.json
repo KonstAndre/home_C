@@ -1,0 +1,13 @@
+{
+  "label": "build C (console)",
+  "type": "shell",
+  "command": "gcc",
+  "args": [
+    "-std=c11","-Wall","-Wextra","-O2",
+    "main.c","temp_api.c",
+    "-o","prog.exe",
+    "-Wl,-subsystem,console"
+  ],
+  "options": { "cwd": "${workspaceFolder}" },
+  "problemMatcher": ["$gcc"]
+}
